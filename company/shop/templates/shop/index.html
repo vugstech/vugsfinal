@@ -103,7 +103,7 @@ margin-top: 10%;
       <p class="lead">And an even wittier subheading.</p>
     </div>
       <div>
-       <img class="bg-white shadow-sm mx-auto" src="{% static 'shop/Colleagues.jpg'" %}" alt"" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;">
+       <img class="bg-white shadow-sm mx-auto" src="{% static 'shop/cl.jpg' %}" alt"" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;">
     </div>
   </div>
   <div class="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
@@ -112,7 +112,7 @@ margin-top: 10%;
       <p class="lead">And an even wittier subheading.</p>
     </div>
 <div>
-       <img class="bg-white shadow-sm mx-auto" src="{% static 'shop/sol2.png'" %}" alt"" style="width: 25vw; height: 300px; border-radius: 21px 21px 0 0;">
+       <img class="bg-white shadow-sm mx-auto" src="{% static 'shop/sol2.png' %}" alt"" style="width: 25vw; height: 300px; border-radius: 21px 21px 0 0;">
     </div>
   </div>
     <div class="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
@@ -121,7 +121,7 @@ margin-top: 10%;
       <p class="lead">And an even wittier subheading.</p>
     </div>
     <div>
-       <img class="bg-white shadow-sm mx-auto" src="{% static 'shop/feedback.jpg'" %}" alt"" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;">
+       <img class="bg-white shadow-sm mx-auto" src="{% static 'shop/feedback.jpg'%}" alt"" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;">
     </div>
   </div>
     <div class="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
@@ -151,10 +151,6 @@ margin-top: 10%;
       </div>
     </div>
 
-
-
-
-
     </section>
 
 
@@ -164,14 +160,7 @@ margin-top: 10%;
 <!--    <form>-->
 
 
-<!--        <div class="form-group">-->
-<!--    <label for="exampleFormControlInput1">Name</label>-->
-<!--    <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Name">-->
-<!--  </div>-->
-<!--        <div class="form-group">-->
-<!--    <label for="exampleFormControlInput1">Contact No.</label>-->
-<!--    <input type="phone" class="form-control" id="exampleFormControlInput2" placeholder="xxxxxxxxxx">-->
-<!--  </div>-->
+
 
 <!--        <div class="form-group">-->
 <!--    <label for="exampleFormControlInput1">Email address</label>-->
@@ -188,6 +177,7 @@ margin-top: 10%;
 <!--  <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>-->
 <!--  <label class="form-check-label" for="flexRadioDefault2">-->
 <!--   Request for a demo.-->
+
 <!--  </label>-->
 <!--</div>-->
 <!--        <br>-->
@@ -200,6 +190,109 @@ margin-top: 10%;
 <!--  <footer>-->
 <!--    Copyright &copy; VUGS Technologies - All rights reserved-->
 <!--  </footer>-->
+
+
+<!--<div class="container p-4" style="background-color: #d7e8bf; margin-top: 10%; ">-->
+<!--<form action="/" method="POST" >{% csrf_token %}-->
+<!--<h1 style="text-align: center;-->
+<!--    background-color: #198754;-->
+<!--    color: #020202;">Schedule A Meeting!</h1>-->
+
+<!--  <div class="form-group">-->
+<!--    <label for="exampleFormControlInput1">Name</label>-->
+<!--    <input type="name" class="form-control" id="exampleFormControlInput1" name="name" placeholder="name">-->
+<!--  </div>-->
+<!--    <div class="form-group">-->
+<!--    <label for="exampleFormControlInput2">Contact No.</label>-->
+<!--    <input type="phone" class="form-control" id="exampleFormControlInput2" name="contact" placeholder="xxxxxxxxxx">-->
+<!--  </div>-->
+<!--    <div class="form-group">-->
+<!--    <label for="exampleFormControlInput3">Email address</label>-->
+<!--    <input type="email" class="form-control" id="exampleFormControlInput3" name="email" placeholder="name@example.com">-->
+<!--  </div>-->
+
+<!--  <div class="form-group">-->
+<!--    <label for="exampleFormControlTextarea1">Anything Else</label>-->
+<!--    <textarea class="form-control" id="exampleFormControlTextarea1" name="anything" rows="3"></textarea>-->
+
+<!--  </div>-->
+<!--<div class="form-check">-->
+<!--  <input class="form-check-input" type="checkbox"  value="on" name="check1" id="flexCheckDefault">-->
+<!--  <label class="form-check-label" for="flexCheckDefault">-->
+<!--   Request for a demo.-->
+<!--  </label>-->
+<!--</div>-->
+<!--<div class="form-check">-->
+<!--  <input class="form-check-input" type="checkbox"  value="on" name="check2" id="flexCheckChecked" >-->
+<!--  <label class="form-check-label" for="flexCheckChecked">-->
+<!--   Set up a meeting with our sales representative.-->
+<!--  </label>-->
+<!--</div>-->
+<!--    <div class="form-group">-->
+<!--         <button type="submit" class="btn btn-dark">SUBMIT</button>-->
+<!--        </div>-->
+<!--</form>-->
+<!--</div>-->
+
+<div class="container marketing"  style="margin-top:15vw">
+<h1 style="text-align:center; background-color:white; color:black; margin-bottom:2vw;">Let's hear it from our existing customers</h1>
+    <!-- Three columns of text below the carousel -->
+    <div class="row">
+      <div class="col-lg-4">
+
+
+        <img class="bd-placeholder-img rounded-circle" src="{% static 'shop/re1.jpg'" %}" alt"" width="140" height="140" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 140x140"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"></rect><text x="50%" y="50%" fill="#777" dy=".3em"></text></img>
+        <h2>Anna Altarwing</h2>
+        <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
+
+      </div><!-- /.col-lg-4 -->
+      <div class="col-lg-4">
+        <img class="bd-placeholder-img rounded-circle" src="{% static 'shop/re2.jpg'" %}" alt"" width="140" height="140" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 140x140"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"></rect><text x="50%" y="50%" fill="#777" dy=".3em"></text></svg>
+        <h2>June Iparis</h2>
+        <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
+
+      </div><!-- /.col-lg-4 -->
+      <div class="col-lg-4">
+        <img class="bd-placeholder-img rounded-circle" src="{% static 'shop/re3.jpg'" %}" alt"" width="140" height="140" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 140x140"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"></rect><text x="50%" y="50%" fill="#777" dy=".3em"></text></svg>
+        <h2>Maxon Schreabe</h2>
+        <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+
+      </div><!-- /.col-lg-4 -->
+    </div><!-- /.row -->
+
+<!-- <section class="py-5 text-center container" >-->
+<!--    <div class="row py-lg-5">-->
+<!--      <div class="col-lg-6 col-md-8 mx-auto" style="background-color:black">-->
+<!--        <h1 class="fw-light">Album example</h1>-->
+<!--        <p class="lead text-muted">Something short and leading about the collection below—its contents, the creator, etc. Make it short and sweet, but not too short so folks don’t simply skip over it entirely.</p>-->
+<!--        <p>-->
+<!--          <a href="#" class="btn btn-primary my-2">Main call to action</a>-->
+<!--          <a href="#" class="btn btn-secondary my-2">Secondary action</a>-->
+<!--        </p>-->
+<!--      </div>-->
+<!--    </div>-->
+<!--  </section>-->
+
+
+<!--    <div class="row mb-2">-->
+
+<!--    <div class="col-md-6">-->
+<!--      <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">-->
+<!--        <div class="col p-4 d-flex flex-column position-static">-->
+<!--          <strong class="d-inline-block mb-2 text-success">Design</strong>-->
+<!--          <h3 class="mb-0">Post title</h3>-->
+<!--          <div class="mb-1 text-muted">Nov 11</div>-->
+<!--          <p class="mb-auto">This is a wider card with supporting text below as a natural lead-in to additional content.</p>-->
+<!--          <a href="#" class="stretched-link">Continue reading</a>-->
+<!--        </div>-->
+<!--        <div class="col-auto d-none d-lg-block">-->
+<!--          <svg class="bd-placeholder-img" width="200" height="250" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>-->
+
+<!--        </div>-->
+<!--      </div>-->
+<!--    </div>-->
+<!--  </div>-->
+
 
 <footer class="contain py-5" style="background-color: white; width=100vw; margin 10% 0; padding:3%;">
   <div class="row">
@@ -221,7 +314,7 @@ margin-top: 10%;
 
     </div>
     <div class="col-6 col-md">
-      <a class="text-muted" href="/contact"><h2>Contact US</h2><a></a>
+      <a class="text-muted" href="/contactus"><h2>Contact US</h2><a></a>
 
   </div>
   </div>
