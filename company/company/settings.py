@@ -24,7 +24,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-d=0f+#b2ci-c8%&z1)d40liq8hyt11(u9sk3*c!v($1ma4ktc+'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = ['vugs2019.herokuapp.com', 'localhost', '127.0.0.1','www.vugstech.com','vugstech.com']
 
